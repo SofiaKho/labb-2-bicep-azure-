@@ -1,0 +1,46 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "namePrefix": {
+      "value": "sofia"
+    },
+    "environment": {
+      "value": "test"
+    },
+    "location": {
+      "value": "swedencentral"
+    },
+    "tags": {
+      "value": {
+        "owner": "Sofia Kho",
+        "environment": "test",
+        "costCenter": "ITH-GOT-VT25"
+      }
+    },
+    "storageSku": {
+      "value": "Standard_LRS"
+    },
+    "storageKind": {
+      "value": "StorageV2"
+    },
+    "skuName": {
+      "value": "B1"
+    },
+    "enableKv": {
+      "value": false
+    },
+    "kvName": {
+      "value": ""
+    },
+    "secretName": {
+      "value": "SampleSecret"
+    },
+    "secretValue": {
+      "value": ""
+    },
+    "enableAutoscale": {
+      "value": false
+    }
+  }
+}
